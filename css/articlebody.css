@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.article-body{
+	margin-left:3em;
+	margin-right:3em;
+	margin-bottom:100px;
+	margin-top:100px;
+	max-width:1000px;
+}
+
+@media screen and (max-wdith:600px){
+
+	.article-body{
+		margin-left:10px;
+		margin-right:10px;
+		margin-bottom:50px;
+		margin-top:50px;
+	}
+}

@@ -1,0 +1,142 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+h1{
+	font-size:42pt;
+	font-family: Garamond, Georgia, serif;
+	
+}
+
+h2{
+	font-size:24pt;
+	font-family: Garamond, Georgia, serif;
+	
+}
+
+h3{
+	font-size:16pt;
+	font-family: Verdana, Arial, Helvatica, sans-serif
+}
+
+p{
+	font-size:14pt;
+	max-width:700px;
+	font-family: Verdana, Arial, Helvatica, sans-serif
+}
+
+.topmenuitem{
+	color:white;
+	font-size:16pt;
+	font-family: Garamond, Georgia, serif;
+}
+
+body{
+	margin:0px;
+}
+
+
+img{
+	max-width:100%;
+	height:auto;
+}
+
+
+.banner-image-title{
+	
+}
+
+.banner{
+	background-color: black;
+	color: white;
+	padding: 1em;
+}
+
+.topmenu{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-around;
+}
+
+
+
+.topmenuitem:hover{
+	color:black;
+	background-color:white;
+}
+
+.bottommenu{
+	color:white;
+}
+
+.footer{
+	padding-top: 1em;
+	padding-bottom:2em;
+	padding-left:1em;
+	padding-right:1em;
+	background-color: black;
+	color: white;
+	display: flex;
+	flex-direction:row;
+	flex-wrap: wrap-reverse;
+	justify-content: space-between;
+}
+
+.footer-text{
+	width:200px;
+}
+
+@media screen and (max-width:600px){
+	
+	h1{
+	font-size:32pt;
+	font-family: Garamond, Georgia, serif;
+	
+	}
+
+	h2{
+	font-size:16pt;
+	font-family: Garamond, Georgia, serif;
+	
+	}
+
+	h3{
+	font-size:14pt;
+	font-family: Verdana, Arial, Helvatica, sans-serif
+	}
+
+	p{
+	font-size:12pt;
+	max-width:700px;
+	font-family: Verdana, Arial, Helvatica, sans-serif
+	}
+
+	.topmenuitem{
+		color:white;
+		font-size:14pt;
+		font-family: Garamond, Georgia, serif;
+	}
+	.topmenu{
+		display:flex;
+		flex-direction:column;
+		justify-content: space-between;
+		height:200px;
+		padding-left:2em;
+	}
+	
+	.footer{
+		padding-top: 1em;
+		padding-bottom:2em;
+		padding-left:1em;
+		padding-right:1em;
+		background-color: black;
+		color: white;
+		display: flex;
+		flex-direction:column;
+		flex-wrap: wrap-reverse;
+		justify-content: space-between;
+	}
+	
+}
+

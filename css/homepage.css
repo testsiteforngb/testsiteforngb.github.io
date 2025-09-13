@@ -1,0 +1,100 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+h2{
+	margin-top:1em;
+	margin-bottom:1em;
+}
+
+h3{
+	margin-top:1em;
+	margin-bottom:1em;
+
+}
+
+.homeS1{
+	background-color:red;
+	color:black;
+	padding-top:5em;
+	padding-bottom:5em;
+	padding-left:2em;
+	padding-right:2em;
+	
+}
+
+.homeS2{
+	background-color: black;
+	color: white;
+	padding-top:5em;
+	padding-bottom:5em;
+	padding-left:2em;
+	padding-right:2em;
+}
+
+.homeS3{
+	display: flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:flex-start;
+	align-items:flex-start;
+	
+	background-color: white;
+	color:black;
+	padding-top:5em;
+	padding-bottom:5em;
+	padding-left:2em;
+	padding-right:2em;
+	
+}
+.homeS4{
+	display: flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:flex-start;
+	align-items:flex-start;
+	
+	background-color: black;
+	color:white;
+	padding-top:5em;
+	padding-bottom:5em;
+	padding-left:2em;
+	padding-right:2em;
+}
+.homeS5{
+	background-color: red;
+	color:black;
+	padding-top:5em;
+	padding-bottom:5em;
+	padding-left:2em;
+	padding-right:2em;
+}
+
+.homeS6{
+	background-color: white;
+	color:black;
+	padding-top:5em;
+	padding-bottom:5em;
+	padding-left:2em;
+	padding-right:2em;
+}
+
+.Paragraph{
+	
+}
+
+.S2Img{
+	padding-top:1em;
+	padding-left:1em;
+	padding-right:1em;
+	padding-bottom:1em;
+}
+
+.S3Img{
+	padding-top:1em;
+	padding-left:1em;
+	padding-right:1em;
+	padding-bottom:1em;
+}
+
