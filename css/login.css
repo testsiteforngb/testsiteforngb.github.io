@@ -1,0 +1,22 @@
+
+.login-page{
+	background-color:red;
+	display:flex;
+	justify-content:center;
+}
+
+.login{
+	align-content:center;
+	margin-top:5em;
+}
+
+.username{
+	margin-bottom:1em;
+	color:white;
+}
+
+.password{
+	margin-bottom:1em;
+	color:white;
+}
+

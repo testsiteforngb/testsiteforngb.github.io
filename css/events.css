@@ -11,7 +11,7 @@
 
 .event{
 	color:black;
-	background-color:white;
+	background-color:darkgrey;
 	margin:1em;
 	outline-style:double;
 	outline-color:black;
@@ -24,6 +24,10 @@
 	display:flex;
 	flex-direction: row;
 	justify-content: space-between; 
+}
+
+.date{
+	color:white;
 }
 
 .event-body{

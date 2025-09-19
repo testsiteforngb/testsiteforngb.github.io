@@ -1,0 +1,14 @@
+
+.color-palete{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+
+}
+
+.color-box{
+	outline-style:single;
+	outline-color:black;
+	width:200px;
+	height:200px;
+}
