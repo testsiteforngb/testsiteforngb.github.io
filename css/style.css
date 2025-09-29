@@ -113,17 +113,19 @@ img{
 	font-family: Verdana, Arial, Helvatica, sans-serif
 	}
 
-	.topmenuitem{
-		color:white;
-		font-size:14pt;
-		font-family: Garamond, Georgia, serif;
-	}
+
 	.topmenu{
 		display:flex;
 		flex-direction:column;
 		justify-content: space-between;
-		height:200px;
+		height:10em;
 		padding-left:2em;
+	}
+	
+	.topmenuitem{
+		color:white;
+		font-size:14pt;
+		font-family: Garamond, Georgia, serif;
 	}
 	
 	.footer{
