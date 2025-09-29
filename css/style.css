@@ -110,7 +110,6 @@ img{
 
 	p{
 	font-size:12pt;
-	max-width:700px;
 	font-family: Verdana, Arial, Helvatica, sans-serif
 	}
 
@@ -129,7 +128,7 @@ img{
 	
 	.footer{
 		padding-top: 1em;
-		padding-bottom:2em;
+		padding-bottom:10em;
 		padding-left:1em;
 		padding-right:1em;
 		background-color: black;
@@ -143,8 +142,7 @@ img{
 	
 	.footer-text{
 		font-size:14px;
-		padding-top:1em;
-		padding-bottom:3em;
+		width:auto;
 	}
 	
 }
