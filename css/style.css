@@ -2,6 +2,7 @@
 /* CSS Document */
 
 
+
 h1{
 	font-size:42pt;
 	font-family: Garamond, Georgia, serif;
@@ -22,15 +23,11 @@ h3{
 
 p{
 	font-size:14pt;
-	max-width:700px;
+	max-width:800px;
 	font-family: Verdana, Arial, Helvatica, sans-serif
 }
 
-.topmenuitem{
-	color:white;
-	font-size:16pt;
-	font-family: Garamond, Georgia, serif;
-}
+	
 
 body{
 	margin:0px;
@@ -43,37 +40,45 @@ img{
 }
 
 
-.banner-image-title{
-	
-}
+
 
 .banner{
 	background-color: black;
 	color: white;
 	padding: 1em;
+	display: flex;
+	flex-direction: Row;
+	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
-.topmenu{
+.topMenu{
+	background-color:black;
+	color:white;
 	display:flex;
 	flex-direction:row;
 	flex-wrap:wrap;
 	justify-content:space-around;
 }
 
-
-
-.topmenuitem:hover{
-	color:black;
-	background-color:white;
+.topMenuItem{
+	color:white;
+	background-color:black;
+	font:Verdana, Arial, Helvatica, sans-serif;
+	font-size:16pt;
 }
 
-.bottommenu{
+/*.topMenuItem:hover{
+	background-color:white;
+}
+*/
+.bottomMenuItem{
 	color:white;
 }
 
 .footer{
 	padding-top: 1em;
-	padding-bottom:2em;
+	padding-bottom:100px;
 	padding-left:1em;
 	padding-right:1em;
 	background-color: black;
@@ -83,13 +88,20 @@ img{
 	flex-wrap: wrap-reverse;
 	justify-content: space-between;
 
+
+}
+.linksColumn{
+	display: flex;
+	flex-direction:column;
+	gap:20px;
+	justify-content: flex-start;
 }
 
 .footer-text{
-	width:200px;
+	width:400px;
 }
 
-@media screen and (max-width:1080px){
+@media screen and (orientation:portrait){
 	
 	h1{
 	font-size:32pt;
@@ -112,7 +124,18 @@ img{
 	font-size:12pt;
 	font-family: Verdana, Arial, Helvatica, sans-serif
 	}
+	
 
+	
+	.banner{
+		background-color: black;
+		color: white;
+		padding: 1em;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		flex-wrap: wrap;
+	}
 
 	.topmenu{
 		display:flex;
@@ -122,12 +145,21 @@ img{
 		padding-left:2em;
 	}
 	
-	.topmenuitem{
-		color:white;
-		font-size:14pt;
-		font-family: Garamond, Georgia, serif;
+	.topMenuItem{
+	padding-top:25px;
+	padding-bottom:25px;
+	font:Verdana, Arial, Helvatica, sans-serif;
+	font-size:16pt;
+	color:white;
 	}
+
+	.topMenuItem:hover{
+		color:black;
+		background-color:white;
+	}	
 	
+	
+
 	.footer{
 		padding-top: 1em;
 		padding-bottom:10em;
@@ -146,6 +178,13 @@ img{
 		font-size:14px;
 		width:auto;
 	}
+	
+	.linksColumn{
+	padding-top:50px;
+	padding-bottom:50px;
+	}
+	
+	
 	
 }
 

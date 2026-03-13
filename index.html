@@ -1,56 +1,113 @@
 <!doctype html>
-
+<html>
 <head>
 <meta charset="UTF-8">
-<title>index</title>
+<title>Tiddley Cove Morris</title>
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/homepage.css">
 <link rel="stylesheet" href="css/events.css">
-<link rel="stylesheet" href="css/repertoire.css">
-<link rel="stylesheet" href="css/styleguide.css">
-<link rel="stylesheet" href="css/articlebody.css">
-
+<link rel="stylesheet" href="css/carousel.css">
 </head>
 
 <body>
-
-	<h2> This is the entry point to the site you are looking for </h2>
-
-	<h1> site title : Tiddley Cove Morris</h1>
-
-	<h3> designed and built by Nicholas Byrne </h3>
-	<p> updated spetember 13th 2025 client - tidley cove moris executive committee<p>
-
-	<a href="homepage.html"> <h1> Link to site here </h1> </a>
-
-	<br>
-	<br>
-
-	<h1> Style Guide </h1>
-
-	<br>
-
-	<h1> Heading 1 </h1>
-	<h2> Heading 2 </h2>
-	<h3> Heading 3 </h3>
-	<h4> Heading 4 </h4>
-
-	<br>
-	<div class="color-palete">
-		<div class="color-box" style="background-color:red"> <p> side color 1 </p> </div>
-		<div class="color-box" style="background-color:black;color:white;" > <p> side color 2 </p> </div>
-		<div class="color-box" style="background-color:white"> <p> side color 1 </p> </div>
-		<div class="color-box" style="background-color:darkgray;"> <p> event color bg </p> </div>
-		<div class="color-box" style="background-color:orange;"> <p> event date color </p> </div>
+	
+	<div class="banner">
+		<div class="banner-image-title"> 
+			<h1> Tiddley Cove Morris </h1>
+		</div>
+		
+		<div class = "socialsLinks">
+			<a href="https://tiddleycove.blogspot.com/">
+				<img alt="blogger logo" width="30px" height="30px" src="img/blogger-1-logo-png-transparent.png"></a>
+			<a href="https://www.facebook.com/TiddleyCoveMorrisDance/">
+				<img alt="facebook logo" width="25px" height="25px" src="img/facebook-logo-icon-free-png.webp">
+			</a>
+		</div>
 	</div>
+		
+	
+	<div class="topMenu">	
+		<div style= "order:1" ><a href="index.html#about" class = "topMenuItem" >About</a></div>
+		<div style= "order:2" ><a href="index.html#events" class = "topMenuItem">Events</a></div>
+		<div style= "order:3" ><a href="index.html#media" class = "topMenuItem"> Media </a> </div>
+		<div style= "order:4" ><a href="index.html#contact" class = "topMenuItem" >Contact</a></div>
+		<div style= "order:5" ><a href="index.html#join" class = "topMenuItem">Join</a></div>
+		
+	</div>
+	
+	
 
+	
+	<div class="homeS1">
+	
 
+	
+		<div id = "runningHead" class="homeRH">
+		<h1> Welcome to Tiddley Cove Morris Dance Group! </h1>
+		<h2> We accept people of all genders and backgrouds </h2>
+		
 
+	<h3>Tiddley Cove Morris is always welcoming new members. You don’t have to be English, just enthusiastic, energetic and willing to have fun. We play music, dance, and sing. We perform in public and for ourselves. All genders welcome!</h3>
+	</div>
+	<!-- Slideshow container -->
 
-	<br>
-	<h3> Events box </h3>
+<div class="slideshow-container">
 
-	<div class="event">
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="img/original_8222766c-13e1-4cfb-a76f-f666cbfdcebf_PXL_20250729_031854443.jpg" style="width:100%">
+    <div class="text">Caption Text</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="img/PXL_20250729_023745978.MP.jpg" style="width:100%">
+    <div class="text">Caption Two</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="img/PXL_20250729_024416790.jpg" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<script src="javascript/carousel.js">
+</script>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+	
+	</div>
+	</div>
+	
+	<div id="events" class="homeS2">
+		
+		<h2> Upcoming events</h2>
+		
+		<p> Events will be posted to our blog page linked bellow. We do however have 
+		number of regular events that we attend every year. Some of these are for clients 
+		and others are more cerimonial evevts such as British holydays and festivals put 
+		on by us and the Vancouver Moris Men </p>
+		
+		<h4> May Day Morming</h4>
+		<p> May 1st 5:00am</p>
+		
+
+		
+		
+		<!-- Update this section manually with the most recent event filling in the relevant sections or copy and paste the up comming event from the events page --> 
+		<div class="event">
 		
 		<div class="top-line">
 		<div><h2>Event Title</h2></div>
@@ -62,34 +119,155 @@
 		<div class="address">
 		<div><h3>Event Location</h3></div>
 		</div>
+		</div>
+		
+		<div class = "buttonSection">
+		<a href="https://tiddleycove.blogspot.com/">
+		<button type="button"> Events Blog </button>
+		</a>
+		</div>
+	
+	</div>
+	
+	
+	<div id = "about" class="homeS3">
+		
+	<div class = "Paragraph">
+	
+	<h2> Tiddley Cove history</h2>
+	
+	<p>Tiddley Cove was founded in 1986 as the Captains Ladies, changing its name to Tiddley Cove in 1988. Since then, we have danced traditional and original Morris dances. Our dance styles currently include Border, Betty Lupton and Adderbury dances as well as current choreography.</p>
+	<p> While originally an all-woman’s group we now accept all genders and people. We were once well known for our red and white petty coats. We now wear more traditional colourful sashes or baldricks. We are closely associated with the Vancouver Morris Men and can be seen at some of the same events together such as May Day Morning.</p>
+	
+	</div>
+		
+	
+	
+	<div class="S2Img"> 
+	
+	<img class = "imgvar" alt ="Tiddley Cove Danceout in uniform" src="img/PXL_20250729_024416790.jpg" width="600px">
 
 	</div>
-
-	<h3> Dance box </h3>
-
-
+		
+	</div>
 	
-		<div class="dance">
-			<h2> Dance Title </h2>
-			<p> extra dance information</p>
+	
+	<div class="homeS4">
+		
+	<div class="Paragraph">
+	<h2>About Morris Dancing</h2>
+	
+	<p> Morris is a traditional British dance whose roots go back to the early 1400’s. Teams of 2 to 10 people dance in sets. We are known for the use of distinctive props including sticks that are clashed together, handkerchiefs used for flourishing, and bells worn on the feet or legs. Morris dance teams each have their own uniform or kit; from straw hats bedecked with flowers, baldrics, black top hats or rag coats.</p> 
+	<p> Morris dancers typically celebrate seasonal activities and attend festivals or ales.</p>
+	<p> There are many styles of Morris dance associated with diﬀerent villages and regions of England, but are performed around the commonwealth and Americas with sides performing in Australia,Canada, the United States, and anywhere with British influence.</p>
+	</div>	
+	
+	<div class="S3Img"> 
+	
+	<img class="imgvar"  alt="traditional image of moris dancing" src="img/Maypolemorrisdance.png" width="500px">
+		
+	</div>
+	
+	</div>
+	
+	<div id="media" class="homeS5">
+	
+	<h2> Media </h2>
+	
+	<p> Tiddley cove has been around for a long time and has many accolades in the media as well as a wealth of photos and videos. Some of the best of snippets can be seen here </p>
+	
+	
+	
+	<a href = "https://www.vancouverisawesome.com/courier-archive/community/tiddley-cove-women-celebrate-birthday-with-song-dance-and-drink-3035437"> 
+	<h4> Vancouver is awsome July 6 2016</h4></a>
+	
+	<a href = "https://www.createastir.ca/articles/secret-lantern-society-winter-solstice-lantern-festival-2025">
+	<h4> Stir arts and culture December 19th 2025 Emily Lyth </h4> </a>
+	
+	<a href = "https://vancouversun.com/news/todd-may-day-dancing-celebrates-neo-pagan-fertility" >
+	<h4> Vancouver Sun May2 2012</h4>
+	</a>
+	
+	<p> See our documentary Sticks and hankeys. We no longer wear the dresses and accept male members however it is a good look at our spirit and dances. </p>
+	
+	<div style="padding:50% 0 0 0;position:relative; ">
+	<iframe  src="https://player.vimeo.com/video/554583809?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:720px;height:100%;" title="Sticks and Hankies (2004).mp4">
+	</iframe>
+	</div><script src="https://player.vimeo.com/api/player.js"></script>
+		
+	<p>More media and videos avialable in our media page </p>
+	
+		<div class = "buttonSection">
+		<a href="media.html">
+		<button type="button"> Media </button>
+		</a>
 		</div>
-
-
-
-
-	<h3> home page sections </h3>
-
-	<div class="homeS1"> <h4> section 1 </h4> </div>
-	<div class="homeS2"> <h4> section 2 </h4> </div>
-	<div class="homeS3"> <h4> section 3 </h4> </div>
-	<div class="homeS4"> <h4> section 4 </h4> </div>
-	<div class="homeS5"> <h4> section 5 </h4> </div>
-	<div class="homeS6"> <h4> section 6 </h4> </div>
-
-
-
 	
+	</div>
+	
+	
+	
+	
+	<div id="join" class="homeS6">
+	<h2> How to Join </h2>
+	
+		<p> If you wish to join Tiddley cove Morris, then drop us a message at our contact email below under the contact section, or come and approach us at one of our events.
+		<p>Tiddley Cove Meets on Mondays at charles dickens school anex at 7:00 pm. </p>
+		<a href="https://maps.app.goo.gl/DCaz8D9VgEtNhCbq7"><p>3877 Glen Dr, Vancouver, BC V5V 1W3</p></a>
+		<p> We look forward to seeing you at our next practice or event. 
 
-
-
+		</p>
+	</div>
+	
+	<div id="contact" class="homeS7">
+		
+	<h2> Contact us </h2>
+		
+		<p> If you have any questions about us you can contact us via the following email. </p>
+		<a href="mailto:tcmsquire@gmail.com"><h2>tcmsquire@gmail.com</h2></a>
+		
+		<p> You can also follow us on our facebook page
+		<a href="https://www.facebook.com/TiddleyCoveMorrisDance/">
+			<img alt="facebook logo" width="25px" height="25px" src="img/facebook-logo-icon-free-png.webp">
+		</a>
+		</p>
+		
+		<p> Follow events on our blogger page <a href="https://tiddleycove.blogspot.com/">
+		<img alt="blogger logo" width="30px" height="30px" src="img/blogger-1-logo-png-transparent.png"></a></p>
+		
+		
+	</div>
+	
+	
+	
+<div class="footer">
+			
+	<div>
+		<p class="footer-text">
+			3877 Glen Dr, Vancouver, BC V5V 1W3
+			Mondays 7:00pm to 9:00pm
+		</p>
+		
+		<p class="footer-text">tcmsquire@gmail.com</p>
+	</div>
+		
+	<div class = "linksColumn">
+	<div>
+		<a href="index.html" class="bottomMenuItem"> Home</a>
+		<a href="index.html#contact" class="bottomMenuItem">Contact</a>
+		<a href="index.html#join" class="bottomMenuItem">Join</a>
+	</div>
+	
+	<div>	
+		<a href="https://tiddleycove.blogspot.com/">
+			<img alt="blogger logo" width="30px" height="30px" src="img/blogger-1-logo-png-transparent.png">
+		</a>
+		<a href="https://www.facebook.com/TiddleyCoveMorrisDance/">
+			<img alt="facebook logo" width="25px" height="25px" src="img/facebook-logo-icon-free-png.webp">
+		</a>
+	</div>	
+	</div>
+	
+</div>
 </body>
+</html>
