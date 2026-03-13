@@ -138,7 +138,7 @@ img{
 	}
 
 	.topMenu{
-		height:500px;
+		height:30em;
 		display:flex;
 		flex-direction:column;
 		align-content: center;
