@@ -138,15 +138,16 @@ img{
 	}
 
 	.topMenu{
+		height:500px;
 		display:flex;
 		flex-direction:column;
-		justify-content: center;
+		align-content: center;
+		justify-content:flex;
 		padding-left:2em;
 	}
 	
 	.topMenuItem{
-	padding-top:25px;
-	padding-bottom:25px;
+
 	font:Verdana, Arial, Helvatica, sans-serif;
 	font-size:16pt;
 	color:white;
