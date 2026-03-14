@@ -51,9 +51,11 @@ button{
 	padding-bottom:5em;
 	padding-left:2em;
 	padding-right:2em;
+
 }
 
 .homeS3{
+	
 	display: flex;
 	flex-direction:row;
 	flex-wrap:wrap;
@@ -113,18 +115,24 @@ button{
 	
 }
 
-.S2Img{
+.S3Img{
 	padding-top:1em;
 	padding-left:1em;
 	padding-right:1em;
 	padding-bottom:1em;
 }
 
-.S3Img{
+.S4Img{
 	padding-top:1em;
 	padding-left:1em;
 	padding-right:1em;
 	padding-bottom:1em;
+}
+
+.eventListItem{
+	padding-top:25px;
+	padding-left:25px;
+	line-height:0px;
 }
 
 .vimeoVideo{
