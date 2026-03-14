@@ -128,11 +128,15 @@ button{
 }
 
 .vimeoVideo{
-	
+	width:640px;
+	height:360px;
 }
 
 @media screen and (orientation:portrait){
-	
+	.vimeoVideo{
+		width:100%;
+		height:auto;
+	}
 	
 }
 
