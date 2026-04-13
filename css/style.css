@@ -16,9 +16,14 @@ h2{
 }
 
 h3{
-	font-size:16pt;
+	font-size:18pt;
 	font-family: Garamond, Georgia, serif;
 	
+}
+
+h4{
+	font-size:14pt;
+	font-family:Verdana, Arial, Helvatica, sans-serif
 }
 
 p{
@@ -39,8 +44,26 @@ img{
 	height:auto;
 }
 
+.banner-image-title{
+	display: flex;
+	flex-direction:row;
+	gap:1em;
+	justify-content: flex-start;
+}
+
+.bannerImage{
+	width: 150px;
+	height:150px;
+}
+
+.blackBgLink{
+	color:white;
+}
+
 .mobileTopPageView{
-	
+	display: flex;
+	flex-direction:column;
+	justify-content: flex-start;
 }
 
 
@@ -121,10 +144,21 @@ img{
 	font-size:14pt;
 	font-family: Verdana, Arial, Helvatica, sans-serif
 	}
+	
+	h4{
+	font-size:12pt;
+	font-family:Verdana, Arial, Helvatica, sans-serif
+		
+	}
 
 	p{
 	font-size:12pt;
 	font-family: Verdana, Arial, Helvatica, sans-serif
+	}
+	
+	.bannerImage{
+		width:5em;
+		height:5em;
 	}
 	
 	.mobileTopPageView{
@@ -165,11 +199,13 @@ img{
 	}	
 	
 	
+	
+	
 
 	.footer{
 		padding-top: 1em;
 		padding-bottom:10em;
-		padding-left:1em;
+		padding-left:2em;
 		padding-right:1em;
 		background-color: black;
 		color: white;

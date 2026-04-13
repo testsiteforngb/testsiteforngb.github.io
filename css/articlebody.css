@@ -9,7 +9,7 @@
 	max-width:1000px;
 }
 
-@media screen and (max-wdith:600px){
+@media screen and (orientation:portrait){
 
 	.article-body{
 		margin-left:10px;
