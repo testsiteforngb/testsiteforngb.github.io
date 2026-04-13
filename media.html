@@ -9,11 +9,13 @@
 <link rel="stylesheet" href="carousel.css">
 <link rel="stylesheet" href="css/articlebody.css">
 <link rel="stylesheet" href="css/hambergerMenu.css">
+<link rel="stylesheet" href="css/media.css">
 </head>
 
 <body>
 	
-		<div class="mobileTopPageView">
+<body>
+	<div class="mobileTopPageView">
 		<div class="banner">
 			<div class="banner-image-title">
 			
@@ -50,23 +52,30 @@
 	</div>
 
 	<!-- hamburger -->
-	<input type="checkbox" id="navi-toggle" class="checkbox" />
-	<label for="navi-toggle" class="button">
-		<span class="icon">&nbsp;</span>
-	</label>
-	<div class="background">&nbsp;</div>
 
-	<!-- nav -->
-	<nav class="nav">
-		<ul class="list">
-			<li class="item"> <a href="index.html" class="link" target="_blank"> Home </a> </li>
-			<li class="item"> <a href="index.html#about" class="link" target="_blank"> About </a> </li>
-			<li class="item"> <a href="index.html#events" class="link"target="_blank"> Events </a> </li>
-			<li class="item"> <a href="media.html" class="link"target="_blank"> Media </a> </li>
-			<li class="item"> <a href="index.html#contact" class="link" target="_blank"> Contants </a> </li>
-			<li class="item"> <a href="index.html#join" class="link"target="_blank"> Join </a> </li>
-		</ul>
-	</nav>
+	<script src="javascript/scrollDetectHM.js">
+	</script>
+	
+	<div id="onScroll" style="display:none;">
+		<input type="checkbox" id="navi-toggle" class="checkbox" />
+			<label for="navi-toggle" class="button">
+			<span class="icon">&nbsp;</span>
+		</label>
+		<div class="background">&nbsp;</div>
+
+		<!-- nav -->
+		<nav class="nav">
+			<ul class="list">
+				<li class="item"> <a href="index.html" class="link" target="_blank"> Home </a> </li>
+				<li class="item"> <a href="index.html#about" class="link" target="_blank"> About </a> </li>
+				<li class="item"> <a href="index.html#events" class="link"target="_blank"> Events </a> </li>
+				<li class="item"> <a href="media.html" class="link"target="_blank"> Media </a> </li>
+				<li class="item"> <a href="index.html#contact" class="link" target="_blank"> Contants </a> </li>
+				<li class="item"> <a href="index.html#join" class="link"target="_blank"> Join </a> </li>
+			</ul>
+		</nav>
+	</div>
+
 
 
 	

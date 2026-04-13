@@ -1,10 +1,14 @@
 @charset "UTF-8";
 /* CSS Document */
 
-.media-bg{
-	display:flex;
-	flex-direction:column;
-	padding:2em;
-	min-height:1000px;
-	background-color:white;
+
+
+@media screen and (orientation:portrait){
+	
+	.topMenu{
+		display:none;
+	}
+	.mobileTopPageView{
+		height:5em;
+	}
 }
