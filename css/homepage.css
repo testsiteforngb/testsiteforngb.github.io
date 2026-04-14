@@ -19,9 +19,7 @@ h3{
 .homeS1{
 	background-image:url;
 	color:black;
-	padding-bottom:100px;
-
-	
+	padding-bottom:100px;	
 }
 
 button{
@@ -44,6 +42,10 @@ button{
 	flex-direction:row;
 	justify-content:center;
 	
+}
+
+.homeS1{
+	background-image:url("img/TCM_Cropped.jpg");
 }
 
 .homeS2{

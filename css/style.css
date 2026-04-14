@@ -126,6 +126,12 @@ img{
 	width:400px;
 }
 
+video{
+	width:720px;
+	height:480px;
+}
+	
+
 @media screen and (orientation:portrait){
 	
 	h1{
@@ -224,6 +230,11 @@ img{
 	.linksColumn{
 	padding-top:50px;
 	padding-bottom:50px;
+	}
+	
+	video{
+		width:100%;
+		height:auto;
 	}
 	
 	
