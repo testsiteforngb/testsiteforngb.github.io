@@ -49,6 +49,7 @@ img{
 	flex-direction:row;
 	gap:1em;
 	justify-content: flex-start;
+	flex-wrap: wrap;
 }
 
 .bannerImage{
