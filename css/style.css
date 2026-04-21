@@ -183,8 +183,8 @@ video{
 		color: white;
 		padding: 1em;
 		display: flex;
-		flex-direction: column;
-		justify-content: flex-start;
+		flex-direction: row;
+		justify-content: space-between;
 		flex-wrap: wrap;
 	}
 
