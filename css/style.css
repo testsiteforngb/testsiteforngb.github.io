@@ -168,6 +168,10 @@ video{
 		height:5em;
 	}
 	
+	.bannerText{
+		display:none;
+	}
+	
 	.mobileTopPageView{
 		height:100vh;
 		width:100vw;
