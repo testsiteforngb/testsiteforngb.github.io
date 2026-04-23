@@ -100,12 +100,16 @@ button{
 
 }
 
-.paragraph{
-	
+.sParagraph{
+	width: 60vw;
+	padding-left:5vw;
+	padding-right:5vw;
+	padding-top:2em;
+	padding-bottom:2em;
 }
 
 .section{
-	width:60vw;
+	max-width:1000px;
 	padding-left:5vw;
 	padding-right:5vw;
 	padding-top:2em;
@@ -136,6 +140,11 @@ button{
 }
 
 @media screen and (orientation:portrait){
+	
+	.slideshow-container{
+		display:none;
+	}
+	
 	.vimeoVideo{
 		width:100%;
 		height:auto;
@@ -183,6 +192,13 @@ button{
 		color:white;
 	}
 	
+	.sParagraph{
+	width: 100%;
+	padding-left:5vw;
+	padding-right:5vw;
+	padding-top:2em;
+	padding-bottom:2em;
+}
 
 	
 }
