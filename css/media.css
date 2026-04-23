@@ -1,7 +1,9 @@
 @charset "UTF-8";
 /* CSS Document */
 
-
+.article-body{
+	max-width:1080px;
+}
 
 @media screen and (orientation:portrait){
 	
